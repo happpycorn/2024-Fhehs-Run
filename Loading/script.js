@@ -4,5 +4,5 @@ window.onload = function() {
     const gradename = params.get("gradename");
     const number = params.get("number");
 
-    window.location.href = `/ScoreSearch?gradename=${gradename}&number=${number}`;
+    window.location.href = `/2024-Fhehs-Run/ScoreSearch?gradename=${gradename}&number=${number}`;
 };
