@@ -30,12 +30,12 @@ window.onload = async function() {
         });
 
         if (!found) {
-            displayNoResult();
+            window.location.href = `/2024-Fhehs-Run/NotFind`;
         }
 
     } catch (error) {
         console.error("Error fetching data:", error);
-        displayNoResult();
+        window.location.href = `/2024-Fhehs-Run/NotFind`;
     }
 
     
