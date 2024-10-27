@@ -37,6 +37,5 @@ window.onload = async function() {
         console.error("Error fetching data:", error);
         window.location.href = `/2024-Fhehs-Run/NotFind`;
     }
-
     
 };
